@@ -1,0 +1,49 @@
+/* Navbar.module.css */
+
+.nav {
+    background-color: #343a40; /* Dark background color for the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff; /* White text color */
+  }
+  
+  .navBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Max width for the navbar */
+  }
+  
+  .myShop {
+    font-size: 24px; /* Font size for the shop name */
+    font-weight: bold; /* Bold font for the shop name */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .myShop:hover {
+    color: #17a2b8; /* Change color on hover */
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .cart i {
+    font-size: 24px; /* Font size for the cart icon */
+    margin-right: 10px; /* Space between icon and number */
+  }
+  
+  .cart span {
+    font-size: 18px; /* Font size for the cart number */
+    margin-left: 5px; /* Space between icon and number */
+    font-weight: bold; /* Bold font for the number */
+  }
+  
+  .cart:hover i {
+    color: #17a2b8; /* Change color of icon on hover */
+  }

@@ -1,0 +1,134 @@
+.article {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.cartBox:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cartImg {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.cartImg img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cartImg p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+ 
+}
+
+.button:hover {
+  background-color: #17a2b8;
+  transform: scale(1.05);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button2, .button3 {
+  margin: 0 5px;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 1;
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.button2 {
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button3 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.price1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.button4 {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button4:hover {
+  background-color:  #17a2b8;
+}
+
+.total, .discount, .finalAmount {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.total {
+  font-weight: 600;
+  background-color: #e0f2f1;
+}
+
+.discount {
+  background-color: #f1f8e9;
+  color: #24200d;
+}
+
+.finalAmount {
+  font-weight: 700;
+  background-color: #fff3e0;
+  color: #1dad3c;
+}
